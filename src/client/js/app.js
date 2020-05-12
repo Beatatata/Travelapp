@@ -79,11 +79,5 @@ function addInfo(data) {
     document.querySelector('#localInfo').insertAdjacentHTML('beforeend', `<h4>当日当地天气预测</h4> <h5>最高温度: ${newdata.maxterm} </h5><h5>最低温度: ${newdata.minterm}</h5>`)
 }
 
-// function saveCard(){
-//     console.log('saveCard', newData.length);
-//     for (i=0; i<=newData.length; i++){
-//         document.querySelector('#result').insertAdjacentHTML('afterend',`<div class="card"><h3>您的目的地为 ${newData[i].country}  ${newData[i].adress}</h3><h3>您的出发日期为  ${newData[i].tourtime}</h3><h3>距离出发时间还有 ${newData[i].count} 天</h3><h4>当日当地天气预测</h4> <h5>最高温度: ${newData[i].maxterm}° </h5><h5>最低温度: ${newData[i].minterm}° </h5><h5>${newData[i].summary}° </h5></div>`)
-//     }
-// }
 
 export { performAction, countdown }
